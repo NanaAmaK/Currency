@@ -1,13 +1,33 @@
-# GitHub Codespaces ♥️ Flask
+# Project Name: NanaAmaK
 
-Welcome to your shiny new Codespace running Flask! We've got everything fired up and running for you to explore Flask.
+## Description
+This project includes Python scripts for data analysis, visualizations, and a web dashboard. It provides insights into Bitcoin transactions and trade volume ratios, alongside other resources like static files, templates, and graphical outputs.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## Features
+- **Bitcoin Visualizations**: Includes pre-generated charts:
+  - `Bitcoin_Total_Number_of_Transaction.svg`
+  - `Bitcoin_Trade_Volume_vs_Transaction_Volume_Ratio.svg`
+- **Web Dashboard**: Built with Python (using `dashboard.py` and `app.py`).
+- **Static and Template Files**: Organized for front-end integration.
+- **Custom Line Chart Viewer**: Script for displaying line charts (`line_chart_viewer.py`).
+- **Preconfigured DevContainer**: `.devcontainer` for VSCode remote development setup.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## Project Structure
+```plaintext
+NanaAmaK/
+├── .devcontainer/            # Configuration files for DevContainer
+├── __pycache__/              # Compiled Python files
+├── static/                   # Static files (CSS, JS, images)
+├── templates/                # HTML template files
+├── Bitcoin_Total_Number_of_Transaction.svg  # Visualization of total Bitcoin transactions
+├── Bitcoin_Trade_Volume_vs_Transaction_Volume_Ratio.svg  # Visualization of trade vs transaction volume ratio
+├── Octocat.png               # Example image resource
+├── README.md                 # Project documentation
+├── app.py                    # Flask app for the dashboard
+├── dashboard.py              # Script to manage and render dashboard components
+├── gitignore.txt             # Files to be ignored by Git
+├── line_chart_viewer.py      # Script to visualize line charts
+├── main.py                   # Main script for the application
+├── main1.py                  # Additional script for auxiliary functionality
+├── requirements.txt          # Dependencies for the project
 
-To run this application:
-
-```
-flask --debug run
-```
